@@ -1,5 +1,4 @@
 # Proj-pronto-cloud
-
 # Inbound Marketing 
 
 ## Objetivos
@@ -38,4 +37,4 @@
   \ Desejo  /	
    \ Ação  /	call-to-action
     |     |
-     LEAD	
+     LEAD >
