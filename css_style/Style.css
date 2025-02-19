@@ -79,15 +79,13 @@ margin: 10px 0px 10px 0px ;
     line-height: 1.2;
     text-align: justify;
  }
-
  article ol li {
-    margin: 0px 0px 0px 30px;
+    margin: 0px 20px 0px 30px;
     line-height: 1.5;
  }
-
-
-
-
+ article p {
+   margin-right: 20px;
+ }
  footer {
     width: 100%;
     background-color: #254159;
@@ -99,5 +97,22 @@ margin: 10px 0px 10px 0px ;
     width: 100%;
     margin-top: 5px;
  }
-
-/*#3858748*/
+ footer p {
+   margin-left: 20px;
+ }
+ /*galax s10/s10*/
+  @media (max-width:360px ){
+   section nav { width: 97%;}
+   section article {width:100%; margin-left:10px;}
+  }
+ /*iphone 12/13 pro-max */
+ @media (max-width:428px ){
+   section nav { width: 97%;}
+   section article {width:100%; margin-left:10px;}
+  }
+   /*galax s10/s10*/
+   @media (max-width:360px ){
+      section nav { width: 97%;}
+      section article {width:100%; margin-left:10px;}
+     }
+     
