@@ -60,17 +60,17 @@ font-size: 2.6rem;
  }
  article h4 {
 color: #254159;
-font-size: 1.4rem;
+font-size: 1.5rem;
 margin: 10px 0px 10px 0px ;
  }
  article h3 {
  color: #254159;
- font-size: 1.5rem;
+ font-size: 1.6rem;
  margin: 10px 0px 10px 0px ;   
  }
  article h2 {
     color: #254159;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin: 10px 0px 10px 0px ;   
     }
  article p, li {
@@ -85,6 +85,10 @@ margin: 10px 0px 10px 0px ;
  }
  article p {
    margin-right: 20px;
+ }
+ article img {
+   margin: 30px 30px 30px 0px;
+   filter: drop-shadow(7px 7px 10px #333);
  }
  footer {
     width: 100%;
@@ -109,10 +113,14 @@ margin: 10px 0px 10px 0px ;
  @media (max-width:428px ){
    section nav { width: 97%;}
    section article {width:100%; margin-left:10px;}
+   section article img{width: 95%; margin: 20px auto;}
+   section article h1 {font-size: 2.2rem; text-align: justify;}
   }
    /*galax s10/s10*/
    @media (max-width:360px ){
       section nav { width: 97%;}
       section article {width:100%; margin-left:10px;}
+      section article img{width: 95%; margin: 20px auto;}
+      section article h1 {font-size: 1.8rem; text-align: justify;}
      }
      
